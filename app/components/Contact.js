@@ -28,7 +28,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-20 dark:text-white dark:bg-gray-900">
+    <section className="pt-20 pb-10 dark:text-white dark:bg-gray-900">
       <div className="container mx-auto px-4 ">
         <h2 className="text-3xl md:text-4xl font-bold text-center my-12 p-6">
           Contact Me

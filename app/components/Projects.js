@@ -31,7 +31,7 @@ export default function Projects() {
                   href={project.link}
                   className="text-blue-600 hover:text-blue-800 font-semibold hover"
                 >
-                  View Project →
+                  View Project →             
                 </a>
               </div>
             </div>

@@ -1,8 +1,22 @@
+'use client'
+
 import Image from 'next/image';
 import { portfolioData } from '../data/portfolioData';
+import {useState } from 'react'
 
 export default function Hero() {
   const { hero } = portfolioData;
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsOpen(false);
+  };
+  
   return (
     <section className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-800 text-white py-20">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
@@ -16,7 +30,8 @@ export default function Hero() {
           <p className="text-xl mb-8">
             {hero.description}
           </p>
-          <button className="bg-white text-blue-600 px-6 py-3 rounded-lg 
+          <button onClick={() => scrollToSection('projects')} 
+          className="bg-white text-blue-600 px-6 py-3 rounded-lg 
           font-semibold hover:bg-gray-200 transition duration-400 cursor-pointer">
             View my latest Project
           </button>

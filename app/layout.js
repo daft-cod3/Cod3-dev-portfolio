@@ -8,7 +8,8 @@ export default function RootLayout({ children }) {
         <title>
           Brian Ochieng - Portfolio
         </title>
-        <meta name="description" content="This is Brian Ochieng's Webpage portfolio, A python developer and a cybersecurity Engineer" />
+        <meta name="description" 
+        content="This is Brian Ochieng's Webpage portfolio, A python developer and a cybersecurity Engineer" />
       </head>
       <body className="font-sans">
         {children}
