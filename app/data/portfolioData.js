@@ -39,6 +39,7 @@ export const portfolioData = {
     { name: "Node.js", level: 50 },
     { name: "Python", level: 60 },
     { name: "MongoDB", level: 85 },
+    { name: "C", level: 70},
   ],
   contact: {
     email: "buraochibo@gmail.com",
