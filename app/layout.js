@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         <meta name="description" 
         content="This is Brian Ochieng's Webpage portfolio, A python developer and a cybersecurity Engineer" />
       </head>
-      <body className="font-sans">
+      <body className="">
         {children}
       </body>
     </html>

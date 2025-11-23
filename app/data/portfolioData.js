@@ -15,7 +15,7 @@ export const portfolioData = {
       title: "HotSpot Cyber",
       description: "A full-stack e-commerce site built with Next.js and Stripe.",
       image: "/projects/hotspot.jpg",
-      link: "hot-spot-cyber.vercel.app",
+      link: "https://hot-spot-cyber.vercel.app",
     },
     {
       id: 2,
@@ -43,7 +43,7 @@ export const portfolioData = {
   ],
   contact: {
     email: "buraochibo@gmail.com",
-    linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
-    github: "	https://github.com/cod3-dev",
+    linkedin: "https://www.linkedin.com/in/bura-chibo-b2253232a?trk=contact-info",
+    github: "https://github.com/cod3-dev",
   },
 };
