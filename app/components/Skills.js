@@ -3,7 +3,7 @@ import { portfolioData } from '../data/portfolioData';
 export default function Skills() {
   const { skills } = portfolioData;
   return (
-    <section className="py-20 bg-gray-100 dark:text-white dark:bg-black cursor-default">
+      <section className="text-white py-26 px-16 cursor-default" style={{ backgroundColor: 'black', backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'20\' height=\'20\' viewBox=\'0 0 20 20\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.1\'%3E%3Ccircle cx=\'10\' cy=\'10\' r=\'1\'/%3E%3C/g%3E%3C/svg%3E")', backgroundRepeat: 'repeat' }}>
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           Skills
